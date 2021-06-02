@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat&display=swap');
+
+body {
+	background-color: black;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+}
+
+header {
+	background-color: rgba(17, 109, 0, 1);
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38); 
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38);
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 {
+	display: inline;
+	font-family: "Cookie", cursive;
+	margin: -5px 0 -10px 10px;
+	font-size: 45pt;
+	font-weight: 400;
+}
+
+nav {
+	align-items: center;
+	display: inline-flex;
+	font-size: 15pt;
+	justify-content: flex-end;
+	padding: 0;
+	width: 60%;
+}
+
+button.navLinks {
+	background: transparent;
+	border: none;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-size: 16pt;
+	margin-right: 7px;
+}
+
+button.navLinks:hover, a:hover {
+	color: yellow;
+	cursor: pointer;
+}
+
+div#content {
+	align-items: flex-start;
+	background-image: url("https://lirp.cdn-website.com/207f0139/dms3rep/multi/opt/pizza+napoletana-4cf0e59b-960w.jpg");
+	background-position: 0% 55%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 600px;
+}
+
+/*HOME*/
+
+h2 {
+	align-self: flex-start;
+	background-color: rgba(109, 0, 0, 0.9);
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38); 
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38);
+	color: white;
+	display: inline-flex;
+	font-size: 18pt;
+	font-weight: 400;
+	margin: 200px auto 160px auto;
+	padding: 12px 15px;
+}
+
+section {
+	align-self: flex-end;
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38); 
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38);
+	background-color: rgba(0, 0, 0, 0.8);
+	font-size: 12pt;
+	margin: 0 auto;
+	padding: 0 15px;
+	width: 65%;
+}
+
+section h3 {
+	font-size: 13pt;
+	margin: 13px 0 20px 0;
+	}
+
+section p {
+	margin: 0 0 15px 0;
+}
+
+/*MENU*/
+
+div#menuDiv h2 {
+	align-self: flex-start;
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38); 
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38);
+	display: block;
+	margin: 30px auto 15px auto;
+	padding: auto 20px;
+}
+
+#homeDiv, #menuDiv, #contactsDiv {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+#menuDiv {
+	height: 700px;
+}
+
+div#cardSection {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.pizze h3, .drinks h3, .desserts h3 {
+	font-family: "Cookie", cursive;
+	font-size: 30pt;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin: 30px auto 15px;
+}
+
+div.pizze, div.drinks, div.desserts {
+	background-color: rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38); 
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38);
+	display: inline-flex;
+	flex-direction: column;
+	margin: 0 7px;
+	padding-bottom: 20px;
+}
+
+div.pizze {
+	width: 25%;
+}
+
+div.desserts {
+	width: 20%;
+}
+
+div.drinks {
+	width: 21%;
+}
+
+.item {
+	text-align: center;
+}
+
+div.item {
+	margin: 10px auto;
+	width: 100%;
+}
+
+div.item h4 {
+	margin: 5px auto;
+}
+
+div.item span {
+	font-size: 9pt;
+}
+
+div.item p {
+	font-size: 9pt;
+	font-style: italic;
+	margin: 5px 20px;
+}
+
+div.drinks p {
+	font-style: normal;
+}
+
+/* Contacts section */
+
+div.parCont {
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38); 
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38);
+	margin: 0 auto;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 41%;
+}
+
+#contactsDiv>h2 {
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38); 
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38);
+	margin: 30px auto;
+}
